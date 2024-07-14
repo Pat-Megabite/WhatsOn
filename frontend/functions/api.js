@@ -26,7 +26,7 @@ router.post(('/search', jsonParser, async (req,res) => {
               series_granularity: 'show'
             },
             headers: {
-              'X-RapidAPI-Key': fs.readFileSync('key.txt').toString(),
+              'X-RapidAPI-Key': process.env.API_KEY.toString(),
               'X-RapidAPI-Host': 'streaming-availability.p.rapidapi.com'
             }
         }
