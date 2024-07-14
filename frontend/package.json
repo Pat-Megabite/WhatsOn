@@ -10,8 +10,13 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "axios": "^1.6.8",
+    "@netlify/functions": "^2.8.1",
+    "@types/express": "^4.17.21",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
     "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
